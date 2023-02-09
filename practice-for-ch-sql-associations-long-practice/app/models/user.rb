@@ -7,5 +7,8 @@
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
+
+# student.enrollments
 class User < ApplicationRecord
+    # has many
 end
